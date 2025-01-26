@@ -1,0 +1,3 @@
+*** SAMPLE TEST
+** FOR C / CPP
+* USING CMAKE
