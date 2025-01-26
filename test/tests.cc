@@ -16,5 +16,5 @@ TEST(CTest_Tut_Tests, DemoTests){
     EXPECT_EQ(true, get_res()) << "Check get_res()";
     EXPECT_EQ(15, sum_array(array, length)) << "Invalid sum from function sum_array";
     // intentionally failed to show error message (change to args[0] to 3 to pass)
-    ASSERT_EQ(31, sum_array(array_1, length_1)) << "Invalid sum from function sum_array";
+    GTEST_ASSERT_EQ(3, sum_array(array_1, length_1)) << "Invalid sum from function sum_array";
 }

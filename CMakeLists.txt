@@ -11,8 +11,6 @@ set(CMAKE_C_STANDARD 23)
 set(CMAKE_CXX_STANDARD 23)
 
 include(CTest)
-add_subdirectory(googletest)
-
 
 add_library(Functions lib/fxns.cc)
 target_include_directories(Functions PUBLIC include)
@@ -21,3 +19,7 @@ add_subdirectory(test)
 
 add_executable(${This} src/main.cc)
 target_link_libraries(${This} Functions)
+
+
+
+
