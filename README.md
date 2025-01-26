@@ -1,3 +1,5 @@
-### SAMPLE TEST
+# SAMPLE TEST
 ## FOR C / CPP
-* USING CMAKE
+### USING CMAKE
+
+Shows how to use ctest with cmake, just a basic example
